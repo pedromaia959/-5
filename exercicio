@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int vzao;
+    int i, azao, bzao;
+    
+    azao = 5000;
+    bzao = 0;
+    vzao = malloc(xsizeof(int));
+    
+    for (i = 0; i < azao; i ++)
+    {
+        vzao[i] = bzao;
+        bzao ++;
+        printf("%d \n", vzao[i]);
+    }
+    free (vzao);
+    
+    
+    return 0;
+}
